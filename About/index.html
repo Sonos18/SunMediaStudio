@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- SWIPER CND -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+     <!-- CSS -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!-- HEADER:START -->
+      <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav-logo">
+                <img class="logo" src="img/luxury.png" alt="">
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link nav-home" >Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gioithieu" class="nav-link">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#dichvu" class="nav-link">Dịch vụ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#banggia" class="nav-link">Bảng giá</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#ablum" class="nav-link">Ablum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#dangnhap" class="nav-link">Đăng nhập</a>
+                    </li>
+                </ul>
+                <i class="fas fa-times nav-close " id="nav-close" ></i>
+            </div> 
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- HEADER:END -->
+    <main>
+         <!-- HOME:START -->
+         <section class="home" id="home">
+            <img src="img/mainbg.jpeg" alt="" class="home-img">        
+            <div class="home-container container">
+                <div class="home-data">
+                    <h1 class="home-data-title">Sun Media Studio</h1>
+                    <span class="home-data-subtitle" >Giới thiệu về chúng tôi</span>
+                </div>
+                <div class="home-social">
+                    <a href="https://www.facebook.com/"  class="home-social-link">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="https://www.instagram.com/"  class="home-social-link">
+                        <i class="fab fa-instagram-square"></i>
+                    </a>
+                    <a href="https://twitter.com/"  class="home-social-link">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- HOME:END -->
+        <!-- ABOUT-US-1:START-->
+        <section>
+            <div class="about-1 " id="about-1">
+                <div class="about__container container grid">
+                    <div class="about__data width-50">
+                        <h2 class="about__title">Thông tin về  <br>Sun Media Studio</h2>
+                        <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo asperiores rem assumenda a quis, fugit repellat quam eius minus commodi veniam reprehenderit? Facilis cumque alias natus quos. Cum, delectus omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet similique quia esse, voluptate iusto soluta expedita accusamus dolores repudiandae eaque eveniet veritatis possimus libero vel consequatur earum inventore nobis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore reiciendis, soluta unde impedit reprehenderit consectetur dicta vitae mollitia veritatis ea veniam fuga! Autem totam quae quam voluptatem consectetur rerum sequi!</p>            
+                    </div>
+    
+                    <div class="about__1__img width-50">
+                        <div class="about__img-overlay">
+                            <img src="img/IMG_20201017_105105.jpg" alt="" class="about__img-one">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ABOUT-US-1:END -->
+          <!-- ABOUT-US-2:START-->
+          <section>
+            <div class="about-2 " id="about-2">
+                <div class="about__container container grid ">
+                    <div class="about__2__img width-40">
+                        <div class="about__img-overlay">
+                            <img src="img/IMG_20201017_110814.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                    <div class="about__2__data width-60">
+                        <article class="about">
+                            <!-- btn container -->
+                            <div class="btn-container">
+                              <button class="tab-btn active" data-id="history">Khởi điểm</button>
+                              <button class="tab-btn" data-id="vision">Tầm nhìn</button>
+                              <button class="tab-btn" data-id="goals">Mục tiêu</button>
+                            </div>
+                            <div class="about-content">
+                              <!-- single item -->
+                              <div class="content active" id="history">
+                                <h4>Lịch sử phát triển</h4>
+                                <p>
+                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem eius fuga voluptate hic vero officia molestias ullam, porro asperiores numquam tempora delectus tenetur! Quaerat praesentium excepturi eligendi totam autem?
+                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eveniet non laboriosam ratione aperiam nemo repellendus quas asperiores est! Provident tempora nulla eaque debitis commodi maxime doloremque libero, ullam inventore.
+                                </p>
+                              </div>
+                              <!-- end of single item -->
+                              <!-- single item -->
+                              <div class="content" id="vision">
+                                <h4>Tầm nhìn phát triển trong tương lai</h4>
+                                <p>
+                                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, architecto explicabo. Fugiat, rem et? Dolor, nobis? Culpa quos sed incidunt? Quibusdam fugiat optio excepturi omnis aspernatur aperiam vero molestias totam?
+                                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam sed similique itaque a culpa doloribus tempora nemo eligendi! Quae maxime doloribus ea ad aliquam itaque quibusdam fugiat et eaque qui?
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, cupiditate quaerat soluta consequuntur labore ex atque porro voluptas cum culpa nobis necessitatibus consectetur? Ipsa earum recusandae placeat suscipit maiores. Aspernatur?
+                                </p>
+                              </div>
+                              <!-- end of single item -->
+                              <!-- single item -->
+                              <div class="content" id="goals">
+                                <h4>Mục tiêu phấn đấu </h4>
+                                <p>
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur commodi hic iste voluptas provident iusto ea quidem fugiat accusantium voluptates assumenda a voluptatibus, beatae facilis laborum, expedita dignissimos, nulla ratione.
+                                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus deleniti doloribus, optio, fuga enim aliquam eaque beatae sequi voluptate soluta omnis dolores? Accusantium praesentium nemo ratione reiciendis voluptatum neque doloribus.
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim, sed porro unde nisi ex! Alias corrupti recusandae dignissimos fugit dolorem, ad assumenda eius tenetur! Repudiandae nostrum voluptates deleniti eius?
+                                </p>
+                              </div>
+                              <!-- end of single item -->
+                            </div>
+                          </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ABOUT-US-2:END -->
+        <!-- ABOUT-US-3:START-->
+        <section class="aboutus3" id="aboutus3">
+            <div class="aboutus3-container container grid">
+                <h2 class="section__title">Các thành viên trong Studio</h2>
+                <div class="slider-card-bg">
+                    <div class="slider-card">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="layer">
+                                        </div>
+                                        <div class="card-content">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta delectus vitae repellendus perspiciatis rerum beatae, optio suscipit perferendis quos officia, cum expedita non sit doloremque enim consectetur ea temporibus fuga?</p>
+                                            <div class="imgBx">
+                                                <img src="img/avatar.jpg" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <h2>NYC-1<br> <span>Photographer</span></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="layer">
+                                        </div>
+                                        <div class="card-content">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta delectus vitae repellendus perspiciatis rerum beatae, optio suscipit perferendis quos officia, cum expedita non sit doloremque enim consectetur ea temporibus fuga?</p>
+                                            <div class="imgBx">
+                                                <img src="img/avatar1.jpg" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <h2>NYC-2<br> <span>Photographer</span></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="layer">
+                                        </div>
+                                        <div class="card-content">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta delectus vitae repellendus perspiciatis rerum beatae, optio suscipit perferendis quos officia, cum expedita non sit doloremque enim consectetur ea temporibus fuga?</p>
+                                            <div class="imgBx">
+                                                <img src="img/avatar2.jpg" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <h2>NYC-3<br> <span>Photographer</span></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="layer">
+                                        </div>
+                                        <div class="card-content">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta delectus vitae repellendus perspiciatis rerum beatae, optio suscipit perferendis quos officia, cum expedita non sit doloremque enim consectetur ea temporibus fuga?</p>
+                                            <div class="imgBx">
+                                                <img src="img/avatar3.jpg" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <h2>NYC-4<br> <span>Photographer</span></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ABOUT-US-3:END-->
+          <!-- FOOTER:START-->
+          <footer class="footer" id="footer">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Sun Media Studio</h3>
+                        <p class="footer__description">Sự lựa chọn hàng đầu của bạn :>
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="fab fa-instagram-square"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="fab fa-youtube-square"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Features</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Plan y Pricing</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Become a member</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER:END-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </main>
+</body>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="main.js"></script>
+</html>

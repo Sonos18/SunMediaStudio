@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- SWIPER CND -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <!-- CSS -->
+        <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <section class="container">
+        <div class="blueBg">
+            <div class="box signin">
+                <h2>Already Have an Account ?</h2>
+                <button id="signinBtn">Sign in</button>
+            </div>
+            <div class="box signup">
+                <h2>Don't Have an Account</h2>
+                <button id="signupBtn" >Sign up</button>
+            </div>
+        </div>
+        <div class="formBx" id="formBx">
+            <div class="form signinForm">
+                <form action="">
+                    <h3>Sign in</h3>
+                    <input type="text" placeholder="Username"> 
+                    <input type="password" placeholder="Password"> 
+                    <input type="submit" value="Login"> 
+                    <a href="#" class="forgot">Forgot Password</a>
+                </form> 
+            </div>
+            <div class="form signupForm">
+                <form action="">
+                    <h3>Sign up</h3>
+                    <input type="text" placeholder="Username"> 
+                    <input type="text" placeholder="Email"> 
+                    <input type="password" placeholder="Password"> 
+                    <input type="password" placeholder="Confirm Password"> 
+                    <input type="submit" value="Register"> 
+                </form> 
+            </div>
+        </div>
+    </section>
+</body>
+<script src="login.js"></script>
+</html>
